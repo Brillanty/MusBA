@@ -189,11 +189,11 @@ footer h1 {
 }
 
 .slide-2 {
-    background-image: url("img/rosa.jpg");
+    background-image: url("img/lion.jpg");
 }
 
-.slide3 {
-    background-image: url("img/rosa.jpg");
+.slide-3 {
+    background-image: url("img/eau.jpg");
 }
 
 section {
@@ -215,11 +215,6 @@ section {
     color: #040404;
     text-decoration: none;
     transition: all 0.25s ease-in-out;
-}
-
-.button:hover {
-    background: #9ED0D3;
-    transform: scale(1.2);
 }
 
 .button-bleu {
