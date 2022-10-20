@@ -1,0 +1,57 @@
+.vmusee {
+    background-color: black;
+}
+
+.vmusee h2 {
+    font-size: 200%;
+}
+
+.imgvm {
+    color: white;
+    font-family: 'Sequel Sans';
+    display: flex;
+    justify-content: center;
+    height: 218px;
+}
+
+.vmusee-title {
+    color: white;
+    font-family: 'Sequel Sans';
+    margin-left: 30px;
+    font-size: 250%;
+}
+
+.viemusee2 {
+    color: white;
+    font-family: 'Sequel Sans';
+    margin-left: 30px;
+}
+
+.imgvm2 {
+    margin-left: 30px;
+    width: 329px;
+    height: 218px;
+}
+
+.ptittexte {
+    margin-left: 30px;
+    padding-top: 120px;
+}
+
+.viemusee2 {
+    margin-top: 40px;
+    display: flex;
+    text-align: end;
+    padding-right: 180px;
+    justify-content: center;
+}
+
+.viemuseetxt {
+    margin-top: 160px;
+    margin-right: 30px;
+}
+
+.imgvmu {
+    width: 265px;
+    height: 242px;
+}
