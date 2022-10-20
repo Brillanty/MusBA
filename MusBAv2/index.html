@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Site Musba</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png">
+            <div class="search">
+                <form action="#">
+                    <input type="text" placeholder=" Rechercher..." name="search ">
+                </form>
+                <div class="tab">
+                    <table>
+                        <td>
+                            <div class="Collectiontab">
+                                <h3>Collection</h3>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="Expositiontab">
+                                <h3>Exposition</h3>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="Museetab">
+                                <h3>Vie du musée</h3>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="Visitetab">
+                                <h3>Visite</h3>
+                            </div>
+                        </td>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h1 class="classe-titres">Collections</h1>
+    <section class="classe-fondbleu">
+        <section class="splide container_slideshow" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="container-slide">
+                            <div class="slide-image slide-1">
+                                <p class="slide-text">Rosa Bonheur, <br> La Foulaison des blés en Camargue, 1864-1899.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide container-slide">
+                        <div class="container-slide">
+                            <div class="slide-image slide-2">
+                                <p class="slide-text">Lion</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide container-slide">
+                        <div class="container-slide">
+                            <div class="slide-image slide-3">
+                                <p class="slide-text">Eau</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <script src="splide.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var splide = new Splide('.splide');
+                splide.mount();
+            });
+        </script>
+    </section>
+
+    <section>
+        <a href="#" class="button">Voir tout</a>
+    </section>
+    <div class="vmusee">
+        <div class="vmusee-title">
+            <h1>Vie du musée</h1>
+        </div>
+        <div class="imgvm">
+            <img src="img/Viemusee1.png">
+            <div>
+                <img class="imgvm2" src=" img/Viemusee2.png">
+            </div>
+            <div class="ptittexte">
+                <h2>Une médiation pour <br> tous les publics</h2>
+            </div>
+        </div>
+        <div class="viemusee2">
+            <h2 class="viemuseetxt">Un musée refusant <br> toute forme d’exclusion</h2>
+            <img class="imgvmu" src="img/Viemusee3.png">
+        </div>
+    </div>
+    <div class="section-visite">
+        <div class="title-visite">
+            <h1>Visite, accès et tarifs</h1>
+        </div>
+        <div class="flexb">
+            <img class="img-visite" src="img/faceMus.png" alt="">
+            <div class="enfant">
+                <h2><i class="fa-solid fa-list"></i> Tarif</h2>
+                <p><i class="fa-solid fa-arrow-right"></i> Voir tous les détails ici</p>
+                <hr>
+                <h2><i class="fa-regular fa-clock"></i> Horraire</h2>
+                <div class="date">
+                    <div class="date2">
+                        <p>Lundi</p>
+                        <p>Mardi</p>
+                        <p>Mercredi</p>
+                        <p>Jeudi</p>
+                        <p>Vendredi</p>
+                        <p>Samedi</p>
+                        <p>Dimanche</p>
+                    </div>
+                    <div class="hours">
+                        <p>11h00-18h00</p>
+                        <p>Fermé</p>
+                        <p>11h00-18h00</p>
+                        <p>11h00-18h00</p>
+                        <p>11h00-18h00</p>
+                        <p>11h00-18h00</p>
+                        <p>11h00-18h00</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="acclogo">
+                    <h2><i class="fa-solid fa-eye-low-vision"></i></h2>
+                    <h2><i class="fa-solid fa-wheelchair"></i></h2>
+                    <h2><i class="fa-solid fa-ear-deaf"></i></h2>
+                    <h2><i class="fa-solid fa-handshake-angle"></i></h2>
+                </div>
+                <p class="esp">En savoir plus</p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    </div>
+    <h1 class="classe-titres">Visite, accès et tarifs</h1>
+    <footer>
+        <div class="container">
+            <div class="column1">
+                <h1>COLLECTION</h1>
+                <h1>EXPOSITION</h1>
+                <h1>VIE DU MUSEE</h1>
+                <h1>VISITE</h1>
+                <h1>CONTACT</h1>
+                <h1>BOUTIQUE</h1>
+            </div>
+            <div class="column2">
+                <h1>FACEBOOK</h1>
+                <h1>TWITTER</h1>
+                <h1>INSTAGRAM</h1>
+            </div>
+        </div>
+        <div class="column3">
+            <h3>Politique de confidentialité</h3>
+            <h3>Contacts</h3>
+            <h3>Gestion des cookies</h3>
+            <h3>Boutique</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

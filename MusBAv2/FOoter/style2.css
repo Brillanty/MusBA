@@ -1,0 +1,44 @@
+footer {
+    background-color: #E39090;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.foottab {}
+
+.column3 {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+    color: #454545;
+    display: flex;
+    text-indent: 40px;
+    justify-content: center;
+}
+
+.column2 {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+    color: #454545;
+    padding-left: 100px;
+    line-height: 10px;
+}
+
+.column1 {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+    color: #454545;
+    padding-left: 50px;
+    line-height: 10px;
+    padding-bottom: 80px;
+}
+
+footer h1 {
+    font-size: 300%;
+}

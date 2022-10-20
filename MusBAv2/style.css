@@ -1,0 +1,344 @@
+body {
+    background-color: #FFFDF6;
+}
+
+.search {
+    float: right;
+    margin: 7px;
+    border-radius: 10%;
+    font-family: 'Sequel Sans';
+    font-style: normal;
+    padding-top: 70px;
+    padding-right: 20px;
+}
+
+form {
+    text-align: end;
+}
+
+.search input {
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.navlist-right {
+    float: right;
+}
+
+.logo {
+    padding: 30px 0 0 30px;
+    width: 300px;
+    height: 175.8px;
+
+}
+
+.tab {
+    text-align: right;
+    text-indent: 40px;
+    font-size: 1.5vw;
+}
+
+.tab h3 {
+    padding: 15px;
+}
+
+header {
+    background-color: #EB9790;
+
+}
+
+.Collectiontab {
+    text-align: right;
+    font-family: 'Sequel Sans';
+    font-style: normal;
+
+}
+
+.Expositiontab {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+}
+
+.Museetab {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+}
+
+.Visitetab {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+}
+
+footer {
+    background-color: #EB9790;
+
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.column3 {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+    color: #000000;
+    display: flex;
+    text-indent: 40px;
+    justify-content: center;
+}
+
+.column2 {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+    color: #000000;
+    padding-left: 100px;
+    line-height: 10px;
+}
+
+.column1 {
+    font-family: 'Sequel Sans';
+    font-style: normal;
+    color: #000000;
+    padding-left: 50px;
+    line-height: 10px;
+    padding-bottom: 80px;
+}
+
+footer h1 {
+    font-size: 250%;
+}
+
+.classe-titres {
+    margin-left: 50px;
+    font-family: 'Sequel Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.classe-fondbleu {
+    display: flex;
+    justify-content: center;
+    background: #86B8BB;
+    height: 15cm;
+    align-items: center;
+}
+
+.classe-photo {
+    display: flex;
+    align-content: center
+}
+
+.classe-cadreblanc {
+    position: absolute;
+    width: 1251px;
+    height: 498px;
+    left: 76px;
+    top: 434px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container_slideshow {
+    width: 100%;
+}
+
+
+.container_slideshow .splide__track {
+    width: 100%;
+}
+
+
+.container-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.slide-image {
+    height: 100%;
+    width: 50%;
+    border: 20px solid #FFFDF6;
+    border-bottom-width: 60px;
+    box-shadow: 12px 12px 12px 1px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.slide-text {
+    background-color: rgba(0, 0, 0, 0.583);
+    margin-bottom: 0;
+    color: white;
+    padding: 20px;
+    width: 100%
+}
+
+.slide-1 {
+    background-image: url("img/rosa.jpg");
+}
+
+.slide-2 {
+    background-image: url("img/rosa.jpg");
+}
+
+.slide3 {
+    background-image: url("img/rosa.jpg");
+}
+
+section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    display: flex;
+    background: #9ED0D3;
+    border-radius: 50px;
+    padding: 20px 25px;
+    font-family: 'Expletus Sans';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+    color: #040404;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.button:hover {
+    background: #9ED0D3;
+    transform: scale(1.2);
+}
+
+.button-bleu {
+    display: flex;
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.vmusee {
+    background-color: black;
+}
+
+.vmusee h2 {
+    font-size: 200%;
+}
+
+.imgvm {
+    color: white;
+    font-family: 'Sequel Sans';
+    display: flex;
+    justify-content: center;
+    height: 218px;
+}
+
+.vmusee-title {
+    color: white;
+    font-family: 'Sequel Sans';
+    margin-left: 30px;
+    font-size: 250%;
+}
+
+.viemusee2 {
+    color: white;
+    font-family: 'Sequel Sans';
+    margin-left: 30px;
+}
+
+.imgvm2 {
+    margin-left: 30px;
+    width: 329px;
+    height: 218px;
+}
+
+.ptittexte {
+    margin-left: 30px;
+    padding-top: 120px;
+}
+
+.viemusee2 {
+    margin-top: 40px;
+    display: flex;
+    text-align: end;
+    padding-right: 180px;
+    justify-content: center;
+}
+
+.viemuseetxt {
+    margin-top: 160px;
+    margin-right: 30px;
+}
+
+.imgvmu {
+    width: 265px;
+    height: 242px;
+}
+
+hr {
+    width: 200px;
+}
+
+* {
+    font-family: 'Sequel Sans';
+}
+
+.img-visite {
+    width: 35%;
+    height: 35%;
+}
+
+
+.flexb {
+    display: flex;
+    justify-content: center;
+
+}
+
+.date {
+    display: flex;
+}
+
+.enfant {
+    margin-left: 100px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.date2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.acclogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.esp {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.enfant p {
+    text-decoration-line: underline;
+}
+
+.title-visite {
+    margin-bottom: 100px;
+}
