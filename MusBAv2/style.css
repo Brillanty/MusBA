@@ -125,6 +125,10 @@ h1 {
     font-family: 'Sequel Sans'
 }
 
+slide-text{
+    font-family: 'Sequel Sans';
+}
+
 .classe-fondbleu {
     display: flex;
     justify-content: center;
