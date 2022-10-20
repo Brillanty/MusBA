@@ -122,12 +122,14 @@ footer h1 {
 }
 
 h1 {
-    font-family: 'Sequel Sans'
+    font-family: 'Sequel Sans';
+    font-weight: 600;
 }
 
 slide-text{
     font-family: 'Sequel Sans';
 }
+
 
 .classe-fondbleu {
     display: flex;
@@ -207,7 +209,8 @@ section {
     color: #040404;
     text-decoration: none;
     transition: all 0.25s ease-in-out;
-    
+    font-family:'Sequel Sans';
+    font-weight: 600;
 }
 
 
