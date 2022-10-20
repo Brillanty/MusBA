@@ -2,7 +2,7 @@
     font-family: 'Sequel Sans';
     src: url('SequelSans-BoldDisp.woff2') format('woff2'),
         url('SequelSans-BoldDisp.woff') format('woff');
-    font-weight: 900;
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -11,7 +11,7 @@
     font-family: 'Sequel Sans';
     src: url('SequelSans-MediumDisp.woff2') format('woff2'),
         url('SequelSans-MediumDisp.woff') format('woff');
-    font-weight: 900;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -19,7 +19,7 @@
     font-family: 'Sequel Sans';
     src: url('SequelSans-SemiBoldHead.woff2') format('woff2'),
         url('SequelSans-SemiBoldHead.woff') format('woff');
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
